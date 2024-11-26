@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Cuadro negro */
+.cuadro-negro {
+    background-color: black;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+/* Cuadro gris */
+.cuadro-gris {
+    background-color: #333;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilos para los enlaces */
+.cuadro-gris a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #00bfff;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cuadro-gris a:hover {
+    color: #ffffff;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Título */
+h1 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Configuración del grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas */
+    gap: 20px; 
+    justify-items: center; 
+}
+
+.tabla{
+    background-color: #333;
+    color: whitesmoke;
+    position: relative;
+    right: -500px;
+    bottom: 520px;
+    width: 400px;
+    height: 300px;
+
+}
+
+.card-img{
+    width: 450px;
+    height: 500px;
+}
+
+.boleta{
+    
+}

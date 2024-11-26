@@ -1,0 +1,100 @@
+body{
+    background-image: url(img/Diseño\ sin\ título.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed;
+}
+/* .header {
+    background-color: #000000; 
+    border: 2px;
+    height: 100px;              
+    width: 100%;                
+    position: fixed;            
+    top: 0;                     
+    left: 0;                    
+    z-index: 1000;
+  
+} */
+.imagen {      
+ text-align: center;
+ height: 200px;
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ background-color: black;
+
+}
+.cuadro {
+    
+    border: 2px solid #ffffff;  
+    padding: 20px;            
+    background-color: #f4f4f4f3; 
+    margin-top: 20px;         
+    width: 40%;               
+       
+    opacity: 0.5;
+}
+.titulosPixel {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+
+
+.cuadro1 {
+    border: 2px solid #ffffff;  
+    padding: 20px;            
+    background-color: #f4f4f4f3; 
+    margin-top: 20px;         
+    width: 40%;               
+       
+    opacity: 0.5;
+    margin-top: -480px; /* Mueve el cuadro 20px hacia arriba */
+    margin-left: auto; /* Mueve el cuadro hacia la derecha */
+    margin-right: 0; /* Evita que el cuadro se desplace hacia la izquierda */
+    width: 40%;               
+}
+
+
+
+
+nav.content {
+    background-color: #333; /* Fondo oscuro para la barra */
+    padding: 10px 0; /* Relleno arriba y abajo */
+    position: sticky; /* Hace que la barra permanezca fija al hacer scroll */
+    top: 0; /* Posiciona la barra en la parte superior */
+    width: 100%; /* Hace que ocupe todo el ancho de la página */
+    z-index: 1000; /* Asegura que la barra esté sobre otros elementos */
+}
+
+/* Estilo para la lista de enlaces */
+.links {
+    list-style: none; /* Elimina los puntos de la lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Muestra los elementos en una fila */
+    justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+/* Estilo para los elementos de la lista */
+.links li {
+    margin: 0 15px; /* Espacio entre los elementos */
+}
+
+/* Estilo para los enlaces */
+.links a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: white; /* Color blanco para el texto */
+    padding: 10px 20px; /* Relleno alrededor del texto */
+    display: block; /* Hace que el área clicable sea más grande */
+    font-size: 16px; /* Tamaño de fuente */
+}
+
+/* Estilo para los enlaces cuando el ratón pasa por encima */
+.links a:hover {
+    background-color: #ddd; /* Fondo claro */
+    color: black; /* Cambia el color del texto */
+    border-radius: 4px; /* Bordes redondeados */
+}
